@@ -5,7 +5,7 @@
 
 
 function generatePassword($length){
-    $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890(!@#$%^&*()_+)';
+    $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+';
     $pass = array(); 
     $alphaLength = strlen($alphabet) - 1; 
     for ($i = 0; $i <$length; $i++) {
